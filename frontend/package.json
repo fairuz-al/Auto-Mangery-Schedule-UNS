@@ -9,9 +9,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "cheerio": "^1.2.0",
+    "html-to-image": "^1.11.13",
+    "html2canvas": "^1.4.1",
+    "html2canvas-pro": "^2.3.9",
+    "jspdf": "^4.2.1",
     "next": "16.3.1",
+    "pdf-parse": "^2.4.5",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "unpdf": "^1.7.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -22,5 +29,8 @@
     "eslint-config-next": "16.3.1",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "optionalDependencies": {
+    "@tailwindcss/oxide-linux-x64-gnu": "^4.3.3"
   }
 }
